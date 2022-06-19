@@ -19628,3 +19628,187 @@ Please enable sql debugging to trace the caller.
 2022-06-19 12:34:18,559 8648 INFO odoo werkzeug: 127.0.0.1 - - [19/Jun/2022 12:34:18] "GET /web/image/product.product/26/image_512?unique=54e3a47 HTTP/1.1" 200 - 8 0.025 0.045
 2022-06-19 12:41:34,457 8648 INFO odoo odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
 2022-06-19 12:41:34,482 8648 INFO odoo odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2022-06-19 12:50:43,721 8648 INFO odoo odoo.addons.base.models.ir_cron: Starting job `Mail: Email Queue Manager`. 
+2022-06-19 12:50:47,955 8648 INFO odoo odoo.addons.base.models.ir_cron: Job `Mail: Email Queue Manager` done. 
+2022-06-19 12:51:44,834 8648 INFO odoo odoo.addons.base.models.ir_cron: Starting job `Partner Autocomplete : Sync with remote DB`. 
+2022-06-19 12:51:44,848 8648 INFO odoo odoo.addons.base.models.ir_cron: Job `Partner Autocomplete : Sync with remote DB` done. 
+2022-06-19 12:51:44,875 8648 INFO odoo odoo.addons.base.models.ir_cron: Starting job `SMS: SMS Queue Manager`. 
+2022-06-19 12:51:44,901 8648 INFO odoo odoo.addons.base.models.ir_cron: Job `SMS: SMS Queue Manager` done. 
+2022-06-19 12:51:44,919 8648 INFO odoo odoo.addons.base.models.ir_cron: Starting job `Snailmail: process letters queue`. 
+2022-06-19 12:51:44,935 8648 INFO odoo odoo.addons.base.models.ir_cron: Job `Snailmail: process letters queue` done. 
+2022-06-19 12:51:44,955 8648 INFO odoo odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2022-06-19 12:51:44,988 8648 INFO odoo odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2022-06-19 13:01:48,092 8648 INFO odoo odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2022-06-19 13:01:48,113 8648 INFO odoo odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2022-06-19 13:10:57,282 8648 INFO odoo werkzeug: 127.0.0.1 - - [19/Jun/2022 13:10:57] "GET /web/assets/debug/1/web.assets_common.css HTTP/1.1" 200 - 4 0.008 0.093
+2022-06-19 13:10:57,285 8648 INFO odoo werkzeug: 127.0.0.1 - - [19/Jun/2022 13:10:57] "GET /web/assets/debug/1/web.assets_frontend.css HTTP/1.1" 200 - 4 0.009 0.089
+2022-06-19 13:10:57,295 8648 INFO odoo werkzeug: 127.0.0.1 - - [19/Jun/2022 13:10:57] "GET /web/assets/debug/1/website.assets_editor.css HTTP/1.1" 200 - 4 0.042 0.060
+2022-06-19 13:10:57,431 8648 INFO odoo werkzeug: 127.0.0.1 - - [19/Jun/2022 13:10:57] "GET /web/assets/debug/1/web.assets_common_minimal.js HTTP/1.1" 200 - 4 0.009 0.026
+2022-06-19 13:10:57,646 8648 INFO odoo werkzeug: 127.0.0.1 - - [19/Jun/2022 13:10:57] "GET /web/assets/debug/1/web.assets_frontend_minimal.js HTTP/1.1" 200 - 4 0.007 0.024
+2022-06-19 13:10:57,709 8648 INFO odoo werkzeug: 127.0.0.1 - - [19/Jun/2022 13:10:57] "GET /web/image/website.s_product_list_default_image_6 HTTP/1.1" 200 - 11 0.011 0.037
+2022-06-19 13:10:57,919 8648 INFO odoo werkzeug: 127.0.0.1 - - [19/Jun/2022 13:10:57] "GET /web/image/website.s_product_list_default_image_4 HTTP/1.1" 200 - 11 0.011 0.026
+2022-06-19 13:10:57,937 8648 INFO odoo werkzeug: 127.0.0.1 - - [19/Jun/2022 13:10:57] "GET /web/image/website.s_product_list_default_image_5 HTTP/1.1" 200 - 11 0.012 0.024
+2022-06-19 13:10:57,963 8648 INFO odoo werkzeug: 127.0.0.1 - - [19/Jun/2022 13:10:57] "GET /web/image/870-3a05b3c1/robi_sim_1170x350.jpg HTTP/1.1" 200 - 3 0.006 0.028
+2022-06-19 13:10:57,965 8648 INFO odoo werkzeug: 127.0.0.1 - - [19/Jun/2022 13:10:57] "GET /web/image/website/1/logo/Red%20Dot%20Digital?unique=92bd6d0 HTTP/1.1" 200 - 5 0.010 0.029
+2022-06-19 13:10:57,993 8648 INFO odoo werkzeug: 127.0.0.1 - - [19/Jun/2022 13:10:57] "GET /web/image/website.s_product_list_default_image_1 HTTP/1.1" 200 - 11 0.007 0.029
+2022-06-19 13:10:58,049 8648 INFO odoo werkzeug: 127.0.0.1 - - [19/Jun/2022 13:10:58] "GET /web/image/website.s_product_list_default_image_2 HTTP/1.1" 200 - 11 0.005 0.019
+2022-06-19 13:10:58,295 8648 INFO odoo werkzeug: 127.0.0.1 - - [19/Jun/2022 13:10:58] "GET /web/image/1185-8c7080a9/ali-nouman-4.jpg HTTP/1.1" 200 - 3 0.006 0.028
+2022-06-19 13:10:58,302 8648 INFO odoo werkzeug: 127.0.0.1 - - [19/Jun/2022 13:10:58] "GET /web/image/website.s_product_list_default_image_3 HTTP/1.1" 200 - 11 0.024 0.034
+2022-06-19 13:10:58,708 8648 INFO odoo werkzeug: 127.0.0.1 - - [19/Jun/2022 13:10:58] "GET /web/assets/debug/1/web.assets_common_lazy.js HTTP/1.1" 200 - 4 0.013 0.071
+2022-06-19 13:10:58,924 8648 INFO odoo werkzeug: 127.0.0.1 - - [19/Jun/2022 13:10:58] "GET /web/assets/debug/1/web.assets_frontend_lazy.js HTTP/1.1" 200 - 4 0.002 0.038
+2022-06-19 13:10:59,510 8648 INFO odoo werkzeug: 127.0.0.1 - - [19/Jun/2022 13:10:59] "GET /web/assets/debug/1/website.assets_editor.js HTTP/1.1" 200 - 4 0.003 0.025
+2022-06-19 13:11:00,093 8648 INFO odoo werkzeug: 127.0.0.1 - - [19/Jun/2022 13:11:00] "GET /web/webclient/qweb/1655644259552?bundle=web.assets_frontend HTTP/1.1" 200 - 35 0.047 0.292
+2022-06-19 13:11:00,140 8648 INFO ? werkzeug: 127.0.0.1 - - [19/Jun/2022 13:11:00] "GET /website/static/src/xml/website.xml?debug=1655644260128 HTTP/1.1" 200 - - - -
+2022-06-19 13:11:00,490 8648 INFO ? werkzeug: 127.0.0.1 - - [19/Jun/2022 13:11:00] "GET /website/static/src/snippets/s_searchbar/000.xml?debug=1655644260172 HTTP/1.1" 200 - - - -
+2022-06-19 13:11:00,517 8648 INFO odoo werkzeug: 127.0.0.1 - - [19/Jun/2022 13:11:00] "GET /web/image/871-670bb267/web-slider_-1170x350.jpg HTTP/1.1" 200 - 3 0.004 0.021
+2022-06-19 13:11:00,529 8648 INFO odoo werkzeug: 127.0.0.1 - - [19/Jun/2022 13:11:00] "GET /web/image/872-d09b8f5c/robishop_web_slider.png HTTP/1.1" 200 - 3 0.003 0.028
+2022-06-19 13:11:00,720 8648 INFO odoo werkzeug: 127.0.0.1 - - [19/Jun/2022 13:11:00] "POST /web/dataset/call_kw/ HTTP/1.1" 200 - 20 0.026 0.161
+2022-06-19 13:11:00,746 8648 INFO ? werkzeug: 127.0.0.1 - - [19/Jun/2022 13:11:00] "GET /website/static/src/snippets/s_dynamic_snippet/000.xml?debug=1655644260497 HTTP/1.1" 200 - - - -
+2022-06-19 13:11:00,860 8648 INFO odoo werkzeug: 127.0.0.1 - - [19/Jun/2022 13:11:00] "GET /web/assets/debug/1/web_editor.assets_wysiwyg.css HTTP/1.1" 200 - 4 0.007 0.045
+2022-06-19 13:11:01,063 8648 INFO ? werkzeug: 127.0.0.1 - - [19/Jun/2022 13:11:01] "GET /website/static/src/snippets/s_dynamic_snippet_carousel/000.xml?debug=1655644260749 HTTP/1.1" 200 - - - -
+2022-06-19 13:11:01,079 8648 INFO ? werkzeug: 127.0.0.1 - - [19/Jun/2022 13:11:01] "GET /website/static/src/xml/website.editor.xml?debug=1655644261068 HTTP/1.1" 200 - - - -
+2022-06-19 13:11:01,099 8648 INFO odoo werkzeug: 127.0.0.1 - - [19/Jun/2022 13:11:01] "GET /web/assets/debug/1/web_editor.assets_wysiwyg.js HTTP/1.1" 200 - 4 0.007 0.034
+2022-06-19 13:11:01,502 8648 INFO odoo werkzeug: 127.0.0.1 - - [19/Jun/2022 13:11:01] "POST /website/snippet/filters HTTP/1.1" 200 - 18 0.071 0.051
+2022-06-19 13:11:01,923 8648 INFO odoo werkzeug: 127.0.0.1 - - [19/Jun/2022 13:11:01] "POST /website/snippet/filters HTTP/1.1" 200 - 88 0.291 0.235
+2022-06-19 13:11:02,005 8648 INFO odoo werkzeug: 127.0.0.1 - - [19/Jun/2022 13:11:02] "POST /web/dataset/call_kw/ HTTP/1.1" 200 - 20 0.090 0.397
+2022-06-19 13:11:02,392 8648 INFO odoo werkzeug: 127.0.0.1 - - [19/Jun/2022 13:11:02] "GET /web/assets/debug/1/website.assets_wysiwyg.css HTTP/1.1" 200 - 4 0.010 0.042
+2022-06-19 13:11:02,392 8648 INFO odoo werkzeug: 127.0.0.1 - - [19/Jun/2022 13:11:02] "GET /web/assets/debug/1/website.assets_wysiwyg.js HTTP/1.1" 200 - 4 0.010 0.037
+2022-06-19 13:11:02,489 8648 INFO odoo werkzeug: 127.0.0.1 - - [19/Jun/2022 13:11:02] "POST /website/snippet/filters HTTP/1.1" 200 - 308 0.506 0.604
+2022-06-19 13:11:02,907 8648 INFO odoo werkzeug: 127.0.0.1 - - [19/Jun/2022 13:11:02] "POST /web/dataset/call_kw/web_tour.tour/get_consumed_tours HTTP/1.1" 200 - 4 0.004 0.018
+2022-06-19 13:11:48,246 8648 INFO odoo odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2022-06-19 13:11:48,257 8648 INFO odoo odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2022-06-19 13:21:48,408 8648 INFO odoo odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2022-06-19 13:21:48,422 8648 INFO odoo odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2022-06-19 13:31:48,581 8648 INFO odoo odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2022-06-19 13:31:48,592 8648 INFO odoo odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2022-06-19 13:41:35,345 8648 INFO odoo odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2022-06-19 13:41:35,357 8648 INFO odoo odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2022-06-19 13:50:44,635 8648 INFO odoo odoo.addons.base.models.ir_cron: Starting job `Mail: Email Queue Manager`. 
+2022-06-19 13:50:44,675 8648 INFO odoo odoo.addons.base.models.ir_cron: Job `Mail: Email Queue Manager` done. 
+2022-06-19 13:50:48,859 8648 INFO odoo odoo.addons.base.models.ir_cron: Starting job `Partner Autocomplete : Sync with remote DB`. 
+2022-06-19 13:50:48,876 8648 INFO odoo odoo.addons.base.models.ir_cron: Job `Partner Autocomplete : Sync with remote DB` done. 
+2022-06-19 13:51:45,726 8648 INFO odoo odoo.addons.base.models.ir_cron: Starting job `SMS: SMS Queue Manager`. 
+2022-06-19 13:51:45,784 8648 INFO odoo odoo.addons.base.models.ir_cron: Job `SMS: SMS Queue Manager` done. 
+2022-06-19 13:51:45,801 8648 INFO odoo odoo.addons.base.models.ir_cron: Starting job `Snailmail: process letters queue`. 
+2022-06-19 13:51:45,815 8648 INFO odoo odoo.addons.base.models.ir_cron: Job `Snailmail: process letters queue` done. 
+2022-06-19 13:51:45,840 8648 INFO odoo odoo.addons.base.models.ir_cron: Starting job `Digest Emails`. 
+2022-06-19 13:51:45,886 8648 INFO odoo odoo.addons.base.models.ir_cron: Job `Digest Emails` done. 
+2022-06-19 13:51:45,916 8648 INFO odoo odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2022-06-19 13:51:45,928 8648 INFO odoo odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2022-06-19 13:54:20,952 8648 WARNING odoo odoo.sql_db: Cursor not closed explicitly
+Please enable sql debugging to trace the caller. 
+2022-06-19 13:54:21,162 8648 INFO odoo odoo.sql_db: ConnectionPool(used=3/count=9/max=64): Free leaked connection to 'user=openpg password=xxx dbname=odoo host=localhost port=5432 sslmode=prefer' 
+2022-06-19 13:54:21,427 8648 INFO odoo werkzeug: 127.0.0.1 - - [19/Jun/2022 13:54:21] "GET /web/database/manager HTTP/1.1" 200 - 5 0.027 0.475
+2022-06-19 13:54:21,591 8648 INFO ? werkzeug: 127.0.0.1 - - [19/Jun/2022 13:54:21] "GET /web/static/lib/bootstrap/js/util.js HTTP/1.1" 200 - - - -
+2022-06-19 13:54:21,591 8648 INFO ? werkzeug: 127.0.0.1 - - [19/Jun/2022 13:54:21] "GET /web/static/lib/bootstrap/js/index.js HTTP/1.1" 200 - - - -
+2022-06-19 13:54:21,892 8648 INFO ? werkzeug: 127.0.0.1 - - [19/Jun/2022 13:54:21] "GET /web/static/lib/bootstrap/js/alert.js HTTP/1.1" 200 - - - -
+2022-06-19 13:54:21,915 8648 INFO ? werkzeug: 127.0.0.1 - - [19/Jun/2022 13:54:21] "GET /web/static/lib/bootstrap/js/carousel.js HTTP/1.1" 200 - - - -
+2022-06-19 13:54:21,916 8648 INFO ? werkzeug: 127.0.0.1 - - [19/Jun/2022 13:54:21] "GET /web/static/lib/bootstrap/js/button.js HTTP/1.1" 200 - - - -
+2022-06-19 13:54:21,922 8648 INFO ? werkzeug: 127.0.0.1 - - [19/Jun/2022 13:54:21] "GET /web/static/lib/bootstrap/js/collapse.js HTTP/1.1" 200 - - - -
+2022-06-19 13:54:21,922 8648 INFO ? werkzeug: 127.0.0.1 - - [19/Jun/2022 13:54:21] "GET /web/static/lib/bootstrap/js/modal.js HTTP/1.1" 200 - - - -
+2022-06-19 13:54:21,924 8648 INFO ? werkzeug: 127.0.0.1 - - [19/Jun/2022 13:54:21] "GET /web/static/lib/bootstrap/js/dropdown.js HTTP/1.1" 200 - - - -
+2022-06-19 13:54:22,220 8648 INFO ? werkzeug: 127.0.0.1 - - [19/Jun/2022 13:54:22] "GET /web/static/lib/bootstrap/js/tooltip.js HTTP/1.1" 200 - - - -
+2022-06-19 13:54:22,242 8648 INFO ? werkzeug: 127.0.0.1 - - [19/Jun/2022 13:54:22] "GET /web/static/lib/bootstrap/js/tab.js HTTP/1.1" 200 - - - -
+2022-06-19 13:54:22,244 8648 INFO ? werkzeug: 127.0.0.1 - - [19/Jun/2022 13:54:22] "GET /web/static/lib/bootstrap/js/popover.js HTTP/1.1" 200 - - - -
+2022-06-19 13:54:22,245 8648 INFO ? werkzeug: 127.0.0.1 - - [19/Jun/2022 13:54:22] "GET /web/static/src/public/database_manager.js HTTP/1.1" 200 - - - -
+2022-06-19 13:54:22,247 8648 INFO ? werkzeug: 127.0.0.1 - - [19/Jun/2022 13:54:22] "GET /web/static/lib/bootstrap/js/scrollspy.js HTTP/1.1" 200 - - - -
+2022-06-19 13:54:22,252 8648 INFO ? werkzeug: 127.0.0.1 - - [19/Jun/2022 13:54:22] "GET /web/static/lib/popper/popper.js HTTP/1.1" 200 - - - -
+2022-06-19 13:54:22,537 8648 INFO ? werkzeug: 127.0.0.1 - - [19/Jun/2022 13:54:22] "GET /web/static/lib/jquery/jquery.js HTTP/1.1" 200 - - - -
+2022-06-19 14:01:49,062 8648 INFO odoo odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2022-06-19 14:01:49,077 8648 INFO odoo odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2022-06-19 14:11:49,223 8648 INFO odoo odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2022-06-19 14:11:49,243 8648 INFO odoo odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2022-06-19 14:21:49,377 8648 INFO odoo odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2022-06-19 14:21:49,391 8648 INFO odoo odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2022-06-19 14:31:49,556 8648 INFO odoo odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2022-06-19 14:31:49,563 8648 INFO odoo odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2022-06-19 14:41:36,299 8648 INFO odoo odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2022-06-19 14:41:36,315 8648 INFO odoo odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2022-06-19 14:50:45,575 8648 INFO odoo odoo.addons.base.models.ir_cron: Starting job `Mail: Email Queue Manager`. 
+2022-06-19 14:50:45,602 8648 INFO odoo odoo.addons.base.models.ir_cron: Job `Mail: Email Queue Manager` done. 
+2022-06-19 14:50:49,804 8648 INFO odoo odoo.addons.base.models.ir_cron: Starting job `Partner Autocomplete : Sync with remote DB`. 
+2022-06-19 14:50:49,812 8648 INFO odoo odoo.addons.base.models.ir_cron: Job `Partner Autocomplete : Sync with remote DB` done. 
+2022-06-19 14:50:49,824 8648 INFO odoo odoo.addons.base.models.ir_cron: Starting job `SMS: SMS Queue Manager`. 
+2022-06-19 14:50:49,836 8648 INFO odoo odoo.addons.base.models.ir_cron: Job `SMS: SMS Queue Manager` done. 
+2022-06-19 14:51:46,668 8648 INFO odoo odoo.addons.base.models.ir_cron: Starting job `Snailmail: process letters queue`. 
+2022-06-19 14:51:46,682 8648 INFO odoo odoo.addons.base.models.ir_cron: Job `Snailmail: process letters queue` done. 
+2022-06-19 14:51:46,695 8648 INFO odoo odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2022-06-19 14:51:46,703 8648 INFO odoo odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2022-06-19 15:01:49,997 8648 INFO odoo odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2022-06-19 15:01:50,003 8648 INFO odoo odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2022-06-19 15:03:27,875 8648 INFO odoo werkzeug: 127.0.0.1 - - [19/Jun/2022 15:03:27] "GET /web?db=odoo HTTP/1.1" 200 - 84 0.098 6.714
+2022-06-19 15:11:18,939 8648 INFO odoo werkzeug: 127.0.0.1 - - [19/Jun/2022 15:11:18] "POST /web/dataset/call_kw/ir.ui.menu/load_menus_root HTTP/1.1" 200 - 2 0.001 0.036
+2022-06-19 15:11:22,129 8648 INFO odoo werkzeug: 127.0.0.1 - - [19/Jun/2022 15:11:22] "GET /web HTTP/1.1" 200 - 84 0.070 0.714
+2022-06-19 15:11:22,170 8648 INFO odoo werkzeug: 127.0.0.1 - - [19/Jun/2022 15:11:22] "GET /web/assets/debug/web.assets_common.css HTTP/1.1" 200 - 4 0.003 0.021
+2022-06-19 15:11:22,186 8648 INFO odoo werkzeug: 127.0.0.1 - - [19/Jun/2022 15:11:22] "GET /web/assets/debug/web.assets_backend.css HTTP/1.1" 200 - 4 0.009 0.030
+2022-06-19 15:11:22,483 8648 INFO odoo werkzeug: 127.0.0.1 - - [19/Jun/2022 15:11:22] "GET /web/webclient/load_menus/7c1eb9aeacb6e70316fa1097fdb63a07608444080e2298d957c6bc55c28034ac HTTP/1.1" 200 - 2 0.001 0.012
+2022-06-19 15:11:22,525 8648 INFO odoo werkzeug: 127.0.0.1 - - [19/Jun/2022 15:11:22] "GET /web/assets/debug/web.assets_backend_prod_only.js HTTP/1.1" 200 - 4 0.004 0.020
+2022-06-19 15:11:22,715 8648 INFO odoo werkzeug: 127.0.0.1 - - [19/Jun/2022 15:11:22] "GET /web/webclient/qweb/9a74be0e5cb783e04009dc70eacdbf966a1681d37dcecc690765fe03aed38032?bundle=web.assets_qweb HTTP/1.1" 200 - 10 0.016 0.227
+2022-06-19 15:11:22,781 8648 INFO odoo werkzeug: 127.0.0.1 - - [19/Jun/2022 15:11:22] "GET /web/assets/debug/web.assets_common.js HTTP/1.1" 200 - 4 0.006 0.319
+2022-06-19 15:11:22,917 8648 INFO odoo werkzeug: 127.0.0.1 - - [19/Jun/2022 15:11:22] "GET /web/assets/debug/web.assets_backend.js HTTP/1.1" 200 - 4 0.005 0.428
+2022-06-19 15:11:23,892 8648 INFO odoo werkzeug: 127.0.0.1 - - [19/Jun/2022 15:11:23] "POST /web/dataset/call_kw/res.users/systray_get_activities HTTP/1.1" 200 - 7 0.050 0.077
+2022-06-19 15:11:24,067 8648 INFO odoo werkzeug: 127.0.0.1 - - [19/Jun/2022 15:11:24] "POST /mail/init_messaging HTTP/1.1" 200 - 40 0.219 0.149
+2022-06-19 15:11:24,177 8648 INFO odoo werkzeug: 127.0.0.1 - - [19/Jun/2022 15:11:24] "POST /longpolling/im_status HTTP/1.1" 200 - 5 0.011 0.014
+2022-06-19 15:11:24,595 8648 INFO odoo werkzeug: 127.0.0.1 - - [19/Jun/2022 15:11:24] "POST /mail/load_message_failures HTTP/1.1" 200 - 11 0.072 0.059
+2022-06-19 15:11:50,136 8648 INFO odoo odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2022-06-19 15:11:50,143 8648 INFO odoo odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2022-06-19 15:12:14,594 8648 INFO odoo werkzeug: 127.0.0.1 - - [19/Jun/2022 15:12:14] "POST /longpolling/poll HTTP/1.1" 200 - 10 0.032 50.091
+2022-06-19 15:12:14,669 8648 INFO odoo werkzeug: 127.0.0.1 - - [19/Jun/2022 15:12:14] "POST /longpolling/im_status HTTP/1.1" 200 - 5 0.005 0.009
+2022-06-19 15:13:04,953 8648 INFO odoo werkzeug: 127.0.0.1 - - [19/Jun/2022 15:13:04] "POST /longpolling/poll HTTP/1.1" 200 - 10 0.028 50.017
+2022-06-19 15:13:05,588 8648 INFO odoo werkzeug: 127.0.0.1 - - [19/Jun/2022 15:13:05] "POST /longpolling/im_status HTTP/1.1" 200 - 5 0.020 0.033
+2022-06-19 15:13:55,342 8648 INFO odoo werkzeug: 127.0.0.1 - - [19/Jun/2022 15:13:55] "POST /longpolling/poll HTTP/1.1" 200 - 10 0.026 50.049
+2022-06-19 15:13:56,385 8648 INFO odoo werkzeug: 127.0.0.1 - - [19/Jun/2022 15:13:56] "POST /longpolling/im_status HTTP/1.1" 200 - 5 0.034 0.013
+2022-06-19 15:14:45,738 8648 INFO odoo werkzeug: 127.0.0.1 - - [19/Jun/2022 15:14:45] "POST /longpolling/poll HTTP/1.1" 200 - 10 0.040 50.030
+2022-06-19 15:14:47,371 8648 INFO odoo werkzeug: 127.0.0.1 - - [19/Jun/2022 15:14:47] "POST /longpolling/im_status HTTP/1.1" 200 - 5 0.008 0.016
+2022-06-19 15:15:36,113 8648 INFO odoo werkzeug: 127.0.0.1 - - [19/Jun/2022 15:15:36] "POST /longpolling/poll HTTP/1.1" 200 - 10 0.032 50.023
+2022-06-19 15:15:38,363 8648 INFO odoo werkzeug: 127.0.0.1 - - [19/Jun/2022 15:15:38] "POST /longpolling/im_status HTTP/1.1" 200 - 5 0.011 0.019
+2022-06-19 15:16:26,465 8648 INFO odoo werkzeug: 127.0.0.1 - - [19/Jun/2022 15:16:26] "POST /longpolling/poll HTTP/1.1" 200 - 10 0.007 50.016
+2022-06-19 15:16:29,370 8648 INFO odoo werkzeug: 127.0.0.1 - - [19/Jun/2022 15:16:29] "POST /longpolling/im_status HTTP/1.1" 200 - 5 0.011 0.022
+2022-06-19 15:17:16,841 8648 INFO odoo werkzeug: 127.0.0.1 - - [19/Jun/2022 15:17:16] "POST /longpolling/poll HTTP/1.1" 200 - 10 0.011 50.038
+2022-06-19 15:17:20,673 8648 INFO odoo werkzeug: 127.0.0.1 - - [19/Jun/2022 15:17:20] "POST /longpolling/im_status HTTP/1.1" 200 - 5 0.013 0.016
+2022-06-19 15:18:07,218 8648 INFO odoo werkzeug: 127.0.0.1 - - [19/Jun/2022 15:18:07] "POST /longpolling/poll HTTP/1.1" 200 - 10 0.015 50.039
+2022-06-19 15:18:11,669 8648 INFO odoo werkzeug: 127.0.0.1 - - [19/Jun/2022 15:18:11] "POST /longpolling/im_status HTTP/1.1" 200 - 5 0.012 0.016
+2022-06-19 15:18:57,569 8648 INFO odoo werkzeug: 127.0.0.1 - - [19/Jun/2022 15:18:57] "POST /longpolling/poll HTTP/1.1" 200 - 10 0.006 50.024
+2022-06-19 15:19:00,045 8648 INFO odoo werkzeug: 127.0.0.1 - - [19/Jun/2022 15:19:00] "POST /web/action/load HTTP/1.1" 200 - 29 0.249 0.126
+2022-06-19 15:19:00,045 8648 INFO odoo werkzeug: 127.0.0.1 - - [19/Jun/2022 15:19:00] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 200 - 8 0.015 0.055
+2022-06-19 15:19:00,505 8648 INFO odoo werkzeug: 127.0.0.1 - - [19/Jun/2022 15:19:00] "POST /web/dataset/call_kw/ir.module.module/load_views HTTP/1.1" 200 - 51 0.100 0.040
+2022-06-19 15:19:00,902 8648 INFO odoo werkzeug: 127.0.0.1 - - [19/Jun/2022 15:19:00] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 43 0.044 0.025
+2022-06-19 15:19:01,248 8648 INFO odoo werkzeug: 127.0.0.1 - - [19/Jun/2022 15:19:01] "POST /web/dataset/search_read HTTP/1.1" 200 - 4 0.009 0.011
+2022-06-19 15:19:01,813 8648 INFO odoo werkzeug: 127.0.0.1 - - [19/Jun/2022 15:19:01] "POST /longpolling/im_status HTTP/1.1" 200 - 5 0.026 0.035
+2022-06-19 15:19:02,049 8648 INFO ? werkzeug: 127.0.0.1 - - [19/Jun/2022 15:19:02] "GET /wk_backup_restore/static/description/icon.png HTTP/1.1" 200 - - - -
+2022-06-19 15:19:47,914 8648 INFO odoo werkzeug: 127.0.0.1 - - [19/Jun/2022 15:19:47] "POST /longpolling/poll HTTP/1.1" 200 - 10 0.013 50.020
+2022-06-19 15:19:52,165 8648 INFO odoo werkzeug: 127.0.0.1 - - [19/Jun/2022 15:19:52] "POST /longpolling/im_status HTTP/1.1" 200 - 5 0.006 0.011
+2022-06-19 15:20:38,291 8648 INFO odoo werkzeug: 127.0.0.1 - - [19/Jun/2022 15:20:38] "POST /longpolling/poll HTTP/1.1" 200 - 10 0.011 50.037
+2022-06-19 15:20:42,358 8648 INFO odoo werkzeug: 127.0.0.1 - - [19/Jun/2022 15:20:42] "POST /longpolling/im_status HTTP/1.1" 200 - 5 0.007 0.011
+2022-06-19 15:21:28,637 8648 INFO odoo werkzeug: 127.0.0.1 - - [19/Jun/2022 15:21:28] "POST /longpolling/poll HTTP/1.1" 200 - 10 0.006 50.014
+2022-06-19 15:21:33,374 8648 INFO odoo werkzeug: 127.0.0.1 - - [19/Jun/2022 15:21:33] "POST /longpolling/im_status HTTP/1.1" 200 - 5 0.009 0.022
+2022-06-19 15:21:50,296 8648 INFO odoo odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2022-06-19 15:21:50,310 8648 INFO odoo odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2022-06-19 15:22:10,129 8648 INFO odoo werkzeug: 127.0.0.1 - - [19/Jun/2022 15:22:10] "POST /web/action/load HTTP/1.1" 200 - 51 0.261 0.129
+2022-06-19 15:22:10,725 8648 INFO odoo werkzeug: 127.0.0.1 - - [19/Jun/2022 15:22:10] "POST /web/dataset/call_kw/res.config.settings/load_views HTTP/1.1" 200 - 44 0.061 0.220
+2022-06-19 15:22:11,726 8648 INFO odoo werkzeug: 127.0.0.1 - - [19/Jun/2022 15:22:11] "POST /web/dataset/call_kw/res.config.settings/onchange HTTP/1.1" 200 - 327 0.398 0.246
+2022-06-19 15:22:12,076 8648 INFO odoo werkzeug: 127.0.0.1 - - [19/Jun/2022 15:22:12] "POST /web/dataset/call_kw/res.lang/read HTTP/1.1" 200 - 4 0.012 0.015
+2022-06-19 15:22:12,519 8648 INFO ? werkzeug: 127.0.0.1 - - [19/Jun/2022 15:22:12] "GET /website/static/src/xml/website.res_config_settings.xml?debug=1655652132172 HTTP/1.1" 200 - - - -
+2022-06-19 15:22:12,562 8648 INFO odoo werkzeug: 127.0.0.1 - - [19/Jun/2022 15:22:12] "POST /base_setup/demo_active HTTP/1.1" 200 - 4 0.004 0.006
+2022-06-19 15:22:12,581 8648 INFO odoo werkzeug: 127.0.0.1 - - [19/Jun/2022 15:22:12] "POST /base_setup/data HTTP/1.1" 200 - 8 0.017 0.014
+2022-06-19 15:22:12,676 8648 INFO odoo odoo.http: <function odoo.addons.web_editor.controllers.main.public_render_template> called ignoring args <kwargs={'context': {'lang': 'en_US', 'tz': 'Asia/Dhaka', 'uid': 2}}> 
+2022-06-19 15:22:12,812 8648 INFO odoo werkzeug: 127.0.0.1 - - [19/Jun/2022 15:22:12] "POST /web_editor/public_render_template HTTP/1.1" 200 - 29 0.016 0.132
+2022-06-19 15:22:13,165 8648 INFO odoo werkzeug: 127.0.0.1 - - [19/Jun/2022 15:22:13] "GET /web/assets/debug/1/web_editor.assets_wysiwyg.js HTTP/1.1" 200 - 4 0.002 0.032
+2022-06-19 15:22:13,166 8648 INFO odoo werkzeug: 127.0.0.1 - - [19/Jun/2022 15:22:13] "GET /web/assets/debug/1/web_editor.assets_wysiwyg.css HTTP/1.1" 200 - 4 0.003 0.034
+2022-06-19 15:22:13,510 8648 INFO odoo werkzeug: 127.0.0.1 - - [19/Jun/2022 15:22:13] "GET /web/assets/debug/1/web_editor.assets_wysiwyg.js HTTP/1.1" 200 - 4 0.003 0.024
+2022-06-19 15:22:13,566 8648 INFO odoo werkzeug: 127.0.0.1 - - [19/Jun/2022 15:22:13] "POST /web/dataset/call_kw/res.users/has_group HTTP/1.1" 200 - 2 0.002 0.003
+2022-06-19 15:22:13,888 8648 INFO ? werkzeug: 127.0.0.1 - - [19/Jun/2022 15:22:13] "GET /web_editor/static/src/xml/editor.xml?debug=1655652133569 HTTP/1.1" 200 - - - -
+2022-06-19 15:22:19,017 8648 INFO odoo werkzeug: 127.0.0.1 - - [19/Jun/2022 15:22:19] "POST /longpolling/poll HTTP/1.1" 200 - 10 0.010 50.044
+2022-06-19 15:22:23,424 8648 INFO odoo werkzeug: 127.0.0.1 - - [19/Jun/2022 15:22:23] "POST /longpolling/im_status HTTP/1.1" 200 - 5 0.007 0.019
+2022-06-19 15:23:09,392 8648 INFO odoo werkzeug: 127.0.0.1 - - [19/Jun/2022 15:23:09] "POST /longpolling/poll HTTP/1.1" 200 - 10 0.009 50.039
+2022-06-19 15:23:14,341 8648 INFO odoo werkzeug: 127.0.0.1 - - [19/Jun/2022 15:23:14] "POST /longpolling/im_status HTTP/1.1" 200 - 5 0.005 0.008
+2022-06-19 15:23:59,735 8648 INFO odoo werkzeug: 127.0.0.1 - - [19/Jun/2022 15:23:59] "POST /longpolling/poll HTTP/1.1" 200 - 10 0.003 50.020
+2022-06-19 15:24:05,359 8648 INFO odoo werkzeug: 127.0.0.1 - - [19/Jun/2022 15:24:05] "POST /longpolling/im_status HTTP/1.1" 200 - 5 0.010 0.016
+2022-06-19 15:24:50,082 8648 INFO odoo werkzeug: 127.0.0.1 - - [19/Jun/2022 15:24:50] "POST /longpolling/poll HTTP/1.1" 200 - 10 0.009 50.016
+2022-06-19 15:24:56,077 8648 INFO odoo odoo.service.db: DUMP DB: odoo format zip 
+2022-06-19 15:24:56,656 8648 INFO odoo werkzeug: 127.0.0.1 - - [19/Jun/2022 15:24:56] "POST /longpolling/im_status HTTP/1.1" 200 - 5 0.005 0.007
+2022-06-19 15:25:11,517 8648 INFO odoo werkzeug: 127.0.0.1 - - [19/Jun/2022 15:25:11] "POST /web/database/backup HTTP/1.1" 200 - 3 0.003 15.498
+2022-06-19 15:25:40,443 8648 INFO odoo werkzeug: 127.0.0.1 - - [19/Jun/2022 15:25:40] "POST /longpolling/poll HTTP/1.1" 200 - 10 0.009 50.031
+2022-06-19 15:25:47,372 8648 INFO odoo werkzeug: 127.0.0.1 - - [19/Jun/2022 15:25:47] "POST /longpolling/im_status HTTP/1.1" 200 - 5 0.011 0.019
+2022-06-19 15:26:30,783 8648 INFO odoo werkzeug: 127.0.0.1 - - [19/Jun/2022 15:26:30] "POST /longpolling/poll HTTP/1.1" 200 - 10 0.005 50.024
+2022-06-19 15:26:38,348 8648 INFO odoo werkzeug: 127.0.0.1 - - [19/Jun/2022 15:26:38] "POST /longpolling/im_status HTTP/1.1" 200 - 5 0.003 0.013
